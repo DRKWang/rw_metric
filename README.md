@@ -120,7 +120,7 @@ RWp distances are especially useful when comparing distributions where shape mat
 A suggested repository layout is:
 
 ```text
-rw_metrics/
+rw_metric/
 ├── docs/
 │   ├── tmlr_rwp_Metric.pdf/
 ├── exps/
