@@ -182,7 +182,9 @@ If you use this work, please cite:
 @article{wang2026relative,
   title={Relative Translation Invariant Wasserstein Distance},
   author={Wang, Binshuai and Di, Qiwei and Yin, Ming and Wang, Mengdi and Gu, Quanquan and Wei, Peng},
-  year={2026}
+  journal={Transactions on Machine Learning Research},
+  year={2026},
+  url={https://openreview.net/forum?id=NfhVTi2G4a}
 }
 ```
 
