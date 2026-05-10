@@ -1,0 +1,84 @@
+experiments:
+  - source_dist: "Gaussian"
+    target_dist: "Gaussian"
+    dims: [2, 10]
+    sizes: [1024]
+    t_list: [1, 2, 4, 8, 16]
+    reg: 1e-5
+    stopThr: 1e-5
+    max_iter: 1000
+    repeated_times: 6
+
+  - source_dist: "Gaussian"
+    target_dist: "Uniform"
+    dims: [2, 10]
+    sizes: [ 1024 ]
+    t_list: [1, 2, 4, 8, 16]
+    reg: 1e-5
+    stopThr: 1e-5
+    max_iter: 1000
+    repeated_times: 6
+
+  - source_dist: "Gaussian"
+    target_dist: "Poisson"
+    dims: [ 2, 10 ]
+    sizes: [ 1024 ]
+    t_list: [ 1, 2, 4, 8, 16]
+    reg: 1e-5
+    stopThr: 1e-5
+    max_iter: 1000
+    repeated_times: 6
+
+  - source_dist: "Gaussian"
+    target_dist: "Geometric"
+    dims: [ 2, 10 ]
+    sizes: [ 1024 ]
+    t_list: [ 1, 2, 4, 8, 16 ]
+    reg: 1e-5
+    stopThr: 1e-5
+    max_iter: 1000
+    repeated_times: 6
+
+  - source_dist: "Gaussian"
+    target_dist: "Gamma"
+    dims: [ 2, 10 ]
+    sizes: [ 1024 ]
+    t_list: [ 1, 2, 4, 8, 16 ]
+    reg: 1e-5
+    stopThr: 1e-5
+    max_iter: 1000
+    repeated_times: 6
+
+
+#
+#  - source_dist: "Gaussian"
+#    target_dist: "Uniform"
+#    dims: [ 2, 10, 20]
+#    sizes: [ 1024 ]
+#    t_list: [ 0, 1, 2, 4, 8, 16]
+#    reg: 1e-5
+#    stopThr: 1e-5
+#    max_iter: 1000
+#    repeated_times: 6
+
+
+
+#  - source_dist: "Gaussian"
+#    target_dist: "Gaussian"
+#    dims: [2, 10, 100]
+#    sizes: [ 100, 1000, 10000 ]
+#    t_list: [ 0, 1, 2, 3, 4, 5]
+#    reg: 1e-5
+#    stopThr: 1e-3
+#    max_iter: 1000
+#    repeated_times: 10
+
+#  - source_dist: "Gaussian"
+#    target_dist: "Poisson"
+#    dims: [10]
+#    sizes: [1000]
+#    t_list: [0, 0.5, 1.0, 2.0]
+#    reg: 1e-5
+#    stopThr: 1e-4
+#    max_iter: 3000
+#    repeated_times: 2

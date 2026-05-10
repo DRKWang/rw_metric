@@ -1,0 +1,14 @@
+matplotlib
+ipywidgets
+ipympl
+ipykernel
+numpy<2
+tqdm
+pot
+scikit-learn
+pandas
+jupyter
+notebook
+sklearn_extra
+torch
+scipy
